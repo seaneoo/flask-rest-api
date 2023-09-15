@@ -6,7 +6,7 @@ app.register_blueprint(api_routes, url_prefix='/api')
 
 
 @app.route('/')
-def hello_world():
+def index():
     return render_template('index.html')
 
 
